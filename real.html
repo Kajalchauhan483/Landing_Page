@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPCC Group Real Estate Offer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f7ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            background-color: #ffffff;
+            background-image: url('cloud.jpeg');
+            background-size: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 90%;
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+        }
+        
+
+
+        .content {
+            padding: 20px;
+        }
+
+        .nav {
+            width: 100%;
+          
+            padding: 10px 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 9;
+        }
+
+        .nav_header {
+            
+            align-items: center;
+            justify-content: space-between;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .nav_logo img {
+            width: 135px;
+        }
+
+        .content img {
+            max-width: 50%;
+            border-radius: 10px;
+        }
+
+        .content h1 {
+            color: #333;
+        }
+
+        .details {
+            background-color: yellowgreen;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .details h3 {
+            margin: 0 0 10px;
+            color: #fff;
+        }
+
+        .details p {
+            margin: 10px 0;
+            font-size: 1.1em;
+            color: #fff;
+        }
+
+        .details p::before  {
+            content: "✔️";
+            margin-right: 10px;
+        }
+
+        .offer {
+            background-color: skyblue;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .offer p {
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .offer span {
+            font-weight: bold;
+            color: #d9534f;
+        }
+
+        .footer {
+            background-color: #005b99;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            .content h1, .details h3 {
+                font-size: 1.2em;
+            }
+            
+            .details p, .offer p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav_header">
+            <div class="nav_logo">
+                <a href="#">
+                    <img src="jpcclogo.png" alt="JPCC Logo">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <img src="jpcclogo.png" alt="JPCC Logo">
+        </div>
+        <div class="content">
+            <h1>JPCC GROUP</h1>
+            <p>House for you with rent</p>
+            <p>Fully furnished Independent developed house</p>
+            <p>Near Badalpur, Dadri (Noida)</p>
+            <img src="house1.jpg" alt="house1">
+        </div>
+        <div class="details">
+            <h3>सिर्फ ₹ 24.24* लाख का निवेश करे और ₹ 17000* का मासिक किराया पाएं</h3>
+            <div><p>Loan Available</p></div>
+            <div><p>Immediate Registry</p></div>
+            <div><p>High Rental Income</p></div>
+            <div><p>Lease Guarantee</p></div>
+        </div>
+        <div class="offer">
+            <p>Offer Valid up to <span>31 May 2024</span></p>
+            <p>Discount 2.02 Lakh & Trip to Dubai</p>
+        </div>
+        <div class="footer">
+            <p>Contact Us: For more information please contact us</p>
+            <p>Phone: +91 123 456 7890</p>
+            <p>Visit: <a href="http://www.jpccgroup.com" target="_blank">www.jpccgroup.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
